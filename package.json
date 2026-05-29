@@ -1,0 +1,13 @@
+{
+  "name": "jermaine-home-services",
+  "version": "1.0.0",
+  "description": "Jermaine's Home Services — painting, carpet cleaning, flooring, remodeling, make-ready units",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13",
+    "@tailwindcss/typography": "^0.5.15"
+  }
+}

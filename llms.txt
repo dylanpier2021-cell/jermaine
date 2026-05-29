@@ -1,0 +1,27 @@
+# Jermaine's Home Services
+
+> Full-service home improvement contractor offering painting, carpet cleaning, flooring, remodeling, and make-ready unit services. One team handles every trade.
+
+<!-- NEED FROM CLIENT: service area, phone, email, address, business entity name -->
+
+## Pages
+
+- [Landing A — Editorial Luxury](/landing-a/): Variation A of the homepage (editorial magazine aesthetic, cream background, Roman numeral service labels)
+- [Landing B — Modern Premium](/landing-b/): Variation B of the homepage (card-based, blue dominant, glass effects, gold CTAs)
+- [Landing C — Refined Showcase](/landing-c/): Variation C of the homepage (image-forward, alternating service sections, full-bleed hero)
+
+## Services
+
+- Painting (interior, exterior, cabinet refinishing)
+- Carpet Cleaning (deep clean, stain removal, pet treatment)
+- Flooring (hardwood, LVP, tile installation)
+- Remodeling (kitchens, bathrooms, full rooms)
+- Make-Ready Units (rental turnovers, landlord services)
+
+## Differentiator
+
+One-stop shop: clients do not need to call separate vendors. One team handles every trade from start to finish, with one point of contact for decisions, updates, and invoicing.
+
+## Contact
+
+<!-- NEED FROM CLIENT: phone, email, address, service area -->
