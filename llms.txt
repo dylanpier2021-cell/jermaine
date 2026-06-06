@@ -1,27 +1,42 @@
-# Jermaine's Home Services
+# Illini Cleaning and Painting
 
-> Full-service home improvement contractor offering painting, carpet cleaning, flooring, remodeling, and make-ready unit services. One team handles every trade.
+> Full-service home improvement contractor serving Champaign-Urbana and Central Illinois since 2006. Owner: Jermaine Williams. One team handles painting, carpet cleaning, flooring, remodeling, and make-ready units.
 
-<!-- NEED FROM CLIENT: service area, phone, email, address, business entity name -->
+## Business
+
+- Name: Illini Cleaning and Painting
+- Owner: Jermaine Williams, Owner and Manager
+- Structure: Sole proprietorship
+- Founded: 2006
+- Address: 2701 Willowpark Dr, Champaign, IL (ZIP needed)
+- Hours: Monday through Friday, 8:00 AM to 5:00 PM
+- Phone: [NEED FROM CLIENT]
+- Email: [NEED FROM CLIENT]
+- Service area: Champaign, Urbana, Decatur, Danville, Tolono, Savoy, and surrounding Central Illinois (up to 100 miles depending on job)
 
 ## Pages
 
-- [Landing A — Editorial Luxury](/landing-a/): Variation A of the homepage (editorial magazine aesthetic, cream background, Roman numeral service labels)
-- [Landing B — Modern Premium](/landing-b/): Variation B of the homepage (card-based, blue dominant, glass effects, gold CTAs)
-- [Landing C — Refined Showcase](/landing-c/): Variation C of the homepage (image-forward, alternating service sections, full-bleed hero)
+- [Home](/): Overview, five services, process, about, FAQ, contact CTA
+- [Services](/services/): Detailed scope for all five services with individual sections
+- [Contact](/contact/): Estimate request form (GoHighLevel, pending), contact info, hours, service area
+- [Reviews](/reviews/): Customer testimonials (pending client content), Google review CTA
+- [Privacy Policy](/privacy-policy/): Data collection, mobile communication policy, SMS opt-out
+- [Terms](/terms/): SMS messaging terms, opt-out instructions, user obligations
 
 ## Services
 
-- Painting (interior, exterior, cabinet refinishing)
-- Carpet Cleaning (deep clean, stain removal, pet treatment)
-- Flooring (hardwood, LVP, tile installation)
-- Remodeling (kitchens, bathrooms, full rooms)
-- Make-Ready Units (rental turnovers, landlord services)
+- Painting: Interior, exterior, cabinet refinishing
+- Carpet Cleaning: Deep extraction, stain removal, pet treatment
+- Flooring: Hardwood, luxury vinyl plank (LVP), tile installation
+- Remodeling: Kitchens, bathrooms, full-room transformations
+- Make-Ready Units: Rental turnovers for landlords and property managers
 
 ## Differentiator
 
-One-stop shop: clients do not need to call separate vendors. One team handles every trade from start to finish, with one point of contact for decisions, updates, and invoicing.
+Jermaine Williams, in his own words: "We provide multiple services so clients avoid the hassle of scheduling multiple contractors. We are quicker and more efficient."
 
-## Contact
+## Estimates
 
-<!-- NEED FROM CLIENT: phone, email, address, service area -->
+- Free, written, no obligation
+- 30-minute consultation: phone, video call, or in-person walkthrough
+- At least 1 day notice required to schedule
