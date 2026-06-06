@@ -1,0 +1,21 @@
+<!-- Designed logo, pending client approval -->
+<!-- Horizontal lockup: mark + wordmark. Wordmark uses fill="currentColor" for light/dark flexibility. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 40" fill="none">
+  <!-- Mark emblem (40x40) -->
+  <rect width="40" height="40" rx="8" fill="#0F1A2E"/>
+  <rect x="3.5" y="3.5" width="33" height="33" rx="5.5" stroke="#D4A017" stroke-width="0.75"/>
+  <rect x="12" y="10" width="16" height="2.5" rx="1.25" fill="#D4A017"/>
+  <rect x="18.75" y="12.5" width="2.5" height="15" fill="#D4A017"/>
+  <rect x="12" y="27.5" width="16" height="2.5" rx="1.25" fill="#D4A017"/>
+  <!-- Thin gold vertical separator -->
+  <line x1="51" y1="8" x2="51" y2="32" stroke="#D4A017" stroke-width="0.75" stroke-linecap="round"/>
+  <!-- Wordmark: currentColor so it inherits navy in the nav, cream in the footer -->
+  <text x="60" y="21"
+    font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif"
+    font-size="18" font-weight="400" letter-spacing="1"
+    fill="currentColor">Illini</text>
+  <text x="60" y="35"
+    font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif"
+    font-size="9" font-weight="400" letter-spacing="1.8"
+    fill="currentColor">CLEANING AND PAINTING</text>
+</svg>
