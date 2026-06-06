@@ -168,21 +168,18 @@
             </div>
           </div>
 
-          <!-- Form column -->
+          <!-- Chat widget CTA -->
           <div data-reveal data-reveal-delay="80">
-            <!-- GHL FORM EMBED: Wire this when Jermaine's GoHighLevel account is set up -->
-            <div class="bg-brand-cream border border-brand-gold/20 rounded-2xl min-h-[480px] flex items-center justify-center p-10 text-center mb-4">
-              <div>
-                <p class="font-display text-2xl text-brand-graphite mb-2">Contact Form</p>
-                <p class="font-sans text-brand-graphite/55 text-sm leading-relaxed">GoHighLevel form will load here once Jermaine's account is configured.</p>
+            <div class="bg-brand-cream border border-brand-gold/20 rounded-2xl p-10 text-center">
+              <div class="w-14 h-14 rounded-full bg-brand-blue-light flex items-center justify-center mx-auto mb-5">
+                <svg class="w-7 h-7 text-brand-blue" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"/></svg>
               </div>
+              <p class="font-display text-xl text-brand-ink mb-3">Ready to talk?</p>
+              <p class="font-sans text-brand-graphite/70 text-sm leading-relaxed mb-6">
+                Use the chat widget in the corner of the screen to send us a message, or reach us directly by phone or email. We respond quickly during business hours.
+              </p>
+              <p class="font-sans text-xs text-brand-graphite/50">Monday through Friday, 8:00 AM to 5:00 PM</p>
             </div>
-
-            <!-- A2P 10DLC SMS opt-in disclosure (required for carrier compliance) -->
-            <p class="font-sans text-xs text-brand-graphite/50 leading-relaxed">
-              By submitting this form, you consent to receive SMS text messages from Illini Cleaning and Painting at the number provided. Message and data rates may apply. Message frequency varies. Reply STOP to opt out at any time. Reply HELP for assistance.
-              See our <a href="/privacy-policy/" class="underline hover:text-brand-ink transition-colors">Privacy Policy</a> and <a href="/terms/" class="underline hover:text-brand-ink transition-colors">Terms</a>.
-            </p>
           </div>
 
         </div>
@@ -277,6 +274,8 @@
     }, { threshold: 0.1, rootMargin: '0px 0px -48px 0px' });
     document.querySelectorAll('[data-reveal]').forEach(el => observer.observe(el));
   </script>
+
+  <script defer src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a245b75cce0c0ecc8766a24" data-source="WEB_USER"></script>
 
 </body>
 </html>
