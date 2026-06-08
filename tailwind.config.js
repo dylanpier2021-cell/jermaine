@@ -5,6 +5,7 @@ module.exports = {
     "./services/**/*.html",
     "./contact/**/*.html",
     "./reviews/**/*.html",
+    "./feedback/**/*.html",
     "./privacy-policy/**/*.html",
     "./terms/**/*.html"
   ],

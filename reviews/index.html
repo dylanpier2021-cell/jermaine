@@ -36,6 +36,9 @@
   <style>
     body { background-color: #ffffff; }
     .section-cream { background-color: #FAF7F2; }
+    .page-hero-overlay {
+      background: linear-gradient(to top, rgba(15,26,46,0.90) 0%, rgba(15,26,46,0.52) 52%, rgba(15,26,46,0.16) 100%);
+    }
   </style>
 
   <script type="application/ld+json">
@@ -112,8 +115,20 @@
   <main id="main-content">
 
     <!-- PAGE HERO -->
-    <section class="section-pad bg-brand-blue-dark" aria-label="Reviews introduction">
-      <div class="container-x">
+    <section class="relative min-h-[55vh] flex items-end overflow-hidden" aria-label="Reviews introduction">
+      <div class="absolute inset-0" aria-hidden="true">
+        <!-- NEED FROM CLIENT: replace with actual project photo before launch -->
+        <img
+          src="/assets/img/project-remodel.webp"
+          width="1400" height="900"
+          alt=""
+          loading="eager"
+          fetchpriority="high"
+          class="absolute inset-0 w-full h-full object-cover"
+        >
+        <div class="absolute inset-0 page-hero-overlay"></div>
+      </div>
+      <div class="container-x relative z-10 pb-16 md:pb-20 pt-28 md:pt-32">
         <div class="max-w-2xl" data-reveal>
           <p class="font-sans text-xs tracking-[0.3em] uppercase text-brand-gold mb-4">What clients say</p>
           <h1 class="font-display text-hero-lg text-white mb-6 leading-tight">Reviews from Central Illinois homeowners and landlords.</h1>
@@ -124,22 +139,34 @@
       </div>
     </section>
 
-    <!-- REVIEWS PLACEHOLDER -->
-    <section class="section-pad" aria-labelledby="reviews-heading">
+    <!-- STAR RATING -->
+    <section class="section-pad" aria-labelledby="rate-heading">
       <div class="container-x">
-        <h2 id="reviews-heading" class="sr-only">Customer reviews</h2>
-
-        <!-- NEED FROM CLIENT: reviews. Replace this placeholder once Jermaine provides testimonials or Google review embed. -->
-        <div class="max-w-2xl mx-auto text-center py-16" data-reveal>
-          <div class="w-16 h-16 rounded-full bg-brand-gold-light flex items-center justify-center mx-auto mb-6">
-            <svg class="w-8 h-8 text-brand-gold" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"/></svg>
-          </div>
-          <p class="font-display text-2xl text-brand-ink mb-3">Reviews coming soon.</p>
-          <p class="font-sans text-brand-graphite text-base leading-relaxed">
-            Testimonials and Google reviews will appear here. In the meantime, feel free to reach out directly for references.
+        <div class="max-w-lg mx-auto text-center" data-reveal>
+          <p class="font-sans text-xs tracking-[0.3em] uppercase text-brand-gold mb-4">Rate your experience</p>
+          <h2 id="rate-heading" class="font-display text-section-hd text-brand-ink mb-4 leading-tight">How did we do?</h2>
+          <p class="font-sans text-brand-graphite text-base leading-relaxed mb-10">
+            Tap a star to share your experience. Your feedback matters.
           </p>
+          <div id="star-rating" role="group" aria-label="Rate your experience from 1 to 5 stars" class="flex justify-center gap-2 mb-5">
+            <button data-stars="1" class="star-btn tap-target w-14 h-14 flex items-center justify-center rounded-xl transition-colors duration-150 hover:bg-brand-gold-light" aria-label="1 star - Poor">
+              <svg width="36" height="36" viewBox="0 0 44 44" fill="none" stroke="#9CA3AF" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M22 4L26.2 16.2L39.1 16.4L28.9 24.2L32.6 36.6L22 29.2L11.4 36.6L15.2 24.2L4.9 16.4L17.8 16.2Z"/></svg>
+            </button>
+            <button data-stars="2" class="star-btn tap-target w-14 h-14 flex items-center justify-center rounded-xl transition-colors duration-150 hover:bg-brand-gold-light" aria-label="2 stars - Fair">
+              <svg width="36" height="36" viewBox="0 0 44 44" fill="none" stroke="#9CA3AF" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M22 4L26.2 16.2L39.1 16.4L28.9 24.2L32.6 36.6L22 29.2L11.4 36.6L15.2 24.2L4.9 16.4L17.8 16.2Z"/></svg>
+            </button>
+            <button data-stars="3" class="star-btn tap-target w-14 h-14 flex items-center justify-center rounded-xl transition-colors duration-150 hover:bg-brand-gold-light" aria-label="3 stars - Average">
+              <svg width="36" height="36" viewBox="0 0 44 44" fill="none" stroke="#9CA3AF" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M22 4L26.2 16.2L39.1 16.4L28.9 24.2L32.6 36.6L22 29.2L11.4 36.6L15.2 24.2L4.9 16.4L17.8 16.2Z"/></svg>
+            </button>
+            <button data-stars="4" class="star-btn tap-target w-14 h-14 flex items-center justify-center rounded-xl transition-colors duration-150 hover:bg-brand-gold-light" aria-label="4 stars - Good">
+              <svg width="36" height="36" viewBox="0 0 44 44" fill="none" stroke="#9CA3AF" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M22 4L26.2 16.2L39.1 16.4L28.9 24.2L32.6 36.6L22 29.2L11.4 36.6L15.2 24.2L4.9 16.4L17.8 16.2Z"/></svg>
+            </button>
+            <button data-stars="5" class="star-btn tap-target w-14 h-14 flex items-center justify-center rounded-xl transition-colors duration-150 hover:bg-brand-gold-light" aria-label="5 stars - Excellent">
+              <svg width="36" height="36" viewBox="0 0 44 44" fill="none" stroke="#9CA3AF" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M22 4L26.2 16.2L39.1 16.4L28.9 24.2L32.6 36.6L22 29.2L11.4 36.6L15.2 24.2L4.9 16.4L17.8 16.2Z"/></svg>
+            </button>
+          </div>
+          <p id="star-hint" class="font-sans text-sm text-brand-graphite/55 h-5">Select a star to continue</p>
         </div>
-
       </div>
     </section>
 
@@ -147,16 +174,14 @@
     <section class="section-pad section-cream" aria-labelledby="google-review-heading">
       <div class="container-x text-center">
         <div class="max-w-xl mx-auto" data-reveal>
-          <p class="font-sans text-xs tracking-[0.3em] uppercase text-brand-gold mb-4">Share your experience</p>
+          <p class="font-sans text-xs tracking-[0.3em] uppercase text-brand-gold mb-4">Leave a review</p>
           <h2 id="google-review-heading" class="font-display text-section-hd text-brand-ink mb-6">Worked with us before?</h2>
           <p class="font-sans text-brand-graphite text-base leading-relaxed mb-8">
             Your feedback helps other Central Illinois homeowners make informed decisions.
           </p>
-          <!-- NEED FROM CLIENT: Google Business Profile review link -->
-          <a href="#" class="inline-flex items-center justify-center tap-target px-7 py-3.5 bg-brand-blue text-white text-sm font-sans tracking-wide rounded-xl hover:bg-brand-blue-dark transition-colors duration-200">
+          <a href="https://g.page/r/CeUFsL4K4Kl2EAE/review" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center tap-target px-7 py-3.5 bg-brand-blue text-white text-sm font-sans tracking-wide rounded-xl hover:bg-brand-blue-dark transition-colors duration-200">
             Leave us a Google review
           </a>
-          <p class="font-sans text-xs text-brand-graphite/50 mt-4"><!-- NEED FROM CLIENT: Google Business Profile link --></p>
         </div>
       </div>
     </section>
@@ -253,6 +278,39 @@
       });
     }, { threshold: 0.1, rootMargin: '0px 0px -48px 0px' });
     document.querySelectorAll('[data-reveal]').forEach(el => observer.observe(el));
+
+    // Star rating widget
+    (function () {
+      const starBtns = document.querySelectorAll('.star-btn');
+      const hint     = document.getElementById('star-hint');
+      const GOOGLE   = 'https://g.page/r/CeUFsL4K4Kl2EAE/review';
+      const FEEDBACK = '/feedback/';
+      const labels   = ['', 'Tell us how we can improve', 'Tell us how we can improve', 'Tell us how we can improve', 'Great, leave us a Google review', 'Love it, leave us a Google review'];
+
+      function paintStars(n) {
+        starBtns.forEach(btn => {
+          const svg    = btn.querySelector('svg');
+          const active = +btn.dataset.stars <= n;
+          svg.setAttribute('fill',   active ? '#D4A017' : 'none');
+          svg.setAttribute('stroke', active ? '#D4A017' : '#9CA3AF');
+        });
+      }
+
+      starBtns.forEach(btn => {
+        btn.addEventListener('mouseenter', () => { const n = +btn.dataset.stars; paintStars(n); hint.textContent = labels[n]; });
+        btn.addEventListener('focus',      () => { const n = +btn.dataset.stars; paintStars(n); hint.textContent = labels[n]; });
+        btn.addEventListener('click',      () => { window.location.href = +btn.dataset.stars <= 3 ? FEEDBACK : GOOGLE; });
+        btn.addEventListener('keydown', e => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); window.location.href = +btn.dataset.stars <= 3 ? FEEDBACK : GOOGLE; }
+        });
+      });
+
+      const container = document.getElementById('star-rating');
+      container.addEventListener('mouseleave', () => { paintStars(0); hint.textContent = 'Select a star to continue'; });
+      container.addEventListener('focusout', e => {
+        if (!container.contains(e.relatedTarget)) { paintStars(0); hint.textContent = 'Select a star to continue'; }
+      });
+    }());
   </script>
 
   <script defer src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a245b75cce0c0ecc8766a24" data-source="WEB_USER"></script>

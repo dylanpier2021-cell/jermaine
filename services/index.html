@@ -117,8 +117,20 @@
   <main id="main-content">
 
     <!-- PAGE HERO -->
-    <section class="section-pad bg-brand-blue-dark" aria-label="Services introduction">
-      <div class="container-x">
+    <section class="relative min-h-[55vh] flex items-end overflow-hidden" aria-label="Services introduction">
+      <div class="absolute inset-0" aria-hidden="true">
+        <!-- NEED FROM CLIENT: replace with actual project photo before launch -->
+        <img
+          src="/assets/img/about-craftsman.webp"
+          width="1400" height="900"
+          alt=""
+          loading="eager"
+          fetchpriority="high"
+          class="absolute inset-0 w-full h-full object-cover"
+        >
+        <div class="absolute inset-0" style="background:linear-gradient(to top,rgba(15,26,46,0.90) 0%,rgba(15,26,46,0.52) 52%,rgba(15,26,46,0.16) 100%)"></div>
+      </div>
+      <div class="container-x relative z-10 pb-16 md:pb-20 pt-28 md:pt-32">
         <div class="max-w-3xl" data-reveal>
           <p class="font-sans text-xs tracking-[0.3em] uppercase text-brand-gold mb-4">What we do</p>
           <h1 class="font-display text-hero-lg text-white mb-6 leading-tight">Professional home services in Central Illinois.</h1>
