@@ -19,6 +19,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://illinicleaningandpainting.com/services/painting/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://illinicleaningandpainting.com/services/carpet-cleaning/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://illinicleaningandpainting.com/services/flooring/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://illinicleaningandpainting.com/services/remodeling/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://illinicleaningandpainting.com/services/make-ready/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://illinicleaningandpainting.com/reviews/</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
